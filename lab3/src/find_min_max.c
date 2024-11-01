@@ -3,8 +3,8 @@
 #include <limits.h>
 
 struct MinMax GetMinMax(int *array, unsigned int begin, unsigned int end) {
-  min = INT_MAX;
-  max = INT_MIN;
+  int min = INT_MAX;
+  int max = INT_MIN;
 
   struct MinMax min_max;
    
