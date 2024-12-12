@@ -12,6 +12,8 @@
 #include <sys/socket.h>
 #include <sys/types.h>
 
+#include <pthread.h>
+
 struct Server {
   char ip[255];
   int port;
