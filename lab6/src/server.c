@@ -1,15 +1,17 @@
-#include <getopt.h>
 #include <limits.h>
-#include <netinet/in.h>
-#include <netinet/ip.h>
-#include <pthread.h>
 #include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <unistd.h>
+
+#include <getopt.h>
+#include <netinet/in.h>
+#include <netinet/ip.h>
 #include <sys/socket.h>
 #include <sys/types.h>
-#include <unistd.h>
+
+#include "pthread.h"
 
 
 struct FactorialArgs {
